@@ -1,0 +1,39 @@
+.nav {
+  background-color: #b42b2b;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  display: block;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  transition: background-color 400ms ease;
+}
+
+.link:hover {
+  background: black;
+  background-color: #922727;
+}
+
+@media (min-width: 700px) {
+  .nav ul {
+    margin-left: 10%;
+  }
+
+  .nav ul li {
+    display: inline-block;
+  }
+
+  .link {
+    line-height: 3.5em;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.button {
+  background: #b42b2b;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+@media (min-width: 700px) {
+  .container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+}

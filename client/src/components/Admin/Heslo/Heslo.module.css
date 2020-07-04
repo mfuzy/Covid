@@ -1,0 +1,10 @@
+.heslo {
+  text-align: center;
+  padding: 100px 0;
+}
+.heslo button {
+  background: rgb(182, 179, 179);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px 10px;
+}

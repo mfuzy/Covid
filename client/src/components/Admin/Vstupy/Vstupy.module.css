@@ -1,0 +1,42 @@
+.logout {
+  text-align: right;
+}
+
+.logout button {
+  background: rgb(182, 179, 179);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.status {
+  padding: 5px;
+}
+
+.statuswait {
+  background: #f1f385;
+}
+
+.statusok {
+  background: #b3e4a9;
+}
+
+.statuserr {
+  background: #f3bcac;
+}
+
+:global(.vstup input) {
+  width: 4em;
+}
+
+:global(.vstup input[type="date"]) {
+  width: 11em;
+}
+
+:global(.vstup button) {
+  background: #b42b2b;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 3px 10px;
+}

@@ -1,0 +1,38 @@
+.card {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 0 0 20px 0;
+  box-shadow: 4px 4px 8px grey;
+}
+
+.red {
+  border-bottom: 8px solid rgb(224, 20, 20);
+  background: rgb(245, 208, 208);
+}
+
+.blue {
+  border-bottom: 8px solid rgb(62, 62, 170);
+  background: rgb(185, 217, 231);
+}
+
+.green {
+  border-bottom: 8px solid rgb(19, 124, 19);
+  background: rgb(184, 245, 156);
+}
+
+.black {
+  border-bottom: 8px solid black;
+  background: rgb(215, 218, 215);
+}
+
+.yellow {
+  border-bottom: 8px solid rgb(241, 238, 14);
+  background: rgb(237, 238, 173);
+}
+
+@media (min-width: 700px) {
+  .card {
+    flex-basis: 49%;
+  }
+}

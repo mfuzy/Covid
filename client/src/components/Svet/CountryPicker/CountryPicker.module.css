@@ -1,0 +1,7 @@
+.select {
+  background: rgb(179, 238, 238);
+  padding: 3px 0;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid rgb(27, 136, 226);
+}

@@ -1,0 +1,16 @@
+.data table {
+  border-collapse: collapse;
+}
+
+.data th,
+.data td {
+  padding: 6px;
+}
+
+.data th {
+  background: #c0bcbc;
+}
+
+.data td {
+  text-align: center;
+}

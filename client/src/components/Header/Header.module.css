@@ -1,0 +1,25 @@
+.header {
+  border: 10px solid white;
+  background-image: url("../../images/corona.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 100px;
+}
+
+.covid {
+  color: #611515;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-left: 110px;
+}
+
+@media (min-width: 700px) {
+  .header {
+    line-height: 200px;
+  }
+
+  .covid {
+    font-size: 2em;
+    margin-left: 230px;
+  }
+}
